@@ -1,42 +1,40 @@
 //!1
-// async function getData(id){
-//     await fetch(id)
-//     .then((response)=> response.json())
-//     .then((data)=>console.log(data))
-//     .catch((err)=>console.log(err))
+// const call= async() => {
+// const response= await  fetch('https://api.escuelajs.co/api/v1/users');
+// const data= await response.json();
+// console.log(data)
 // }
-// getData("https://api.escuelajs.co/api/v1/users")
+// call()
 
 //!2
-// const callApi= async()=>{
-//      await fetch('https://jsonplaceholder.typicode.com/todos/1')
-//     .then(response => response.json())
-//     .then(json => console.log(json))
-
+// const callapi= async() => {
+// const response= await  fetch('https://jsonplaceholder.typicode.com/todos/1');
+// const data= await response.json();
+// console.log(data)
 // }
-// callApi()
+// callapi()
+
 
 //!3
-// const  Api= async()=>{
-//      await fetch('https://fakestoreapi.com/products/1')
-//     .then(res=>res.json())
-//     .then(json=>console.log(json))
-// }
-// Api()
-
-//!4
-//  async function sayt(api){
-//     await fetch(api)
-//     .then((response)=> response.json())
-//     .then((data)=>console.log(data))
-//     .catch((err)=>console.log(err))
-// }
-// sayt('https://api.escuelajs.co/api/v1/users/id/1')
-
-//!5
-// const api=async()=>{
-//     await fetch('https://dummyjson.com/products/1')
-// .then(res => res.json())
-// .then(json => console.log(json))
+// const api= async() => {
+// const response= await  fetch('https://fakestoreapi.com/products/1');
+// const data= await response.json();
+// console.log(data)
 // }
 // api()
+
+//!4
+// const adress= async() => {
+// const response= await  fetch('https://api.escuelajs.co/api/v1/users/id/1');
+// const data= await response.json();
+// console.log(data)
+// }
+// adress()
+
+//!5
+// const add= async() => {
+// const response= await  fetch('https://dummyjson.com/products/1');
+// const data= await response.json();
+// console.log(data)
+// }
+// add()
